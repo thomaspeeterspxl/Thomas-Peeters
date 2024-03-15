@@ -1,0 +1,20 @@
+@use 'global' as *;
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul li a {
+  display: inline-block;
+  padding: 0 20px 0 0;
+  font-size: 1.5rem;
+  color:$color-secondary;
+  align-content: center;
+}
+
+footer ul li a:hover {
+  color:$color-primary;
+}
