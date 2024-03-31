@@ -24,6 +24,26 @@ $colors: (
 .slide2:focus {
   box-shadow: inset 8em 0 0 0 var(--hover);
 }
+.slide3:hover,
+.slide3:focus {
+  box-shadow: inset 9em 0 0 0 var(--hover);
+}
+.slide4:hover,
+.slide4:focus {
+  box-shadow: inset 12.5em 0 0 0 var(--hover);
+}
+.slide5:hover,
+.slide5:focus {
+  box-shadow: inset 12em 0 0 0 var(--hover);
+}
+.slide6:hover,
+.slide6:focus {
+  box-shadow: inset 15.3em 0 0 0 var(--hover);
+}
+.slide7:hover,
+.slide7:focus {
+  box-shadow: inset 14em 0 0 0 var(--hover);
+}
 #cvButton{
   margin-left: 20px;
 }
@@ -35,7 +55,6 @@ $colors: (
   transition: 0.25s;
   background: none;
   border: 2px solid;
-  //font: inherit;
   line-height: 1;
   border-radius: 5px;
   padding: 1em 2em;

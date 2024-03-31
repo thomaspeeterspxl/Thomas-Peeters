@@ -12,6 +12,31 @@
   box-shadow: inset 8em 0 0 0 var(--hover);
 }
 
+.slide3:hover,
+.slide3:focus {
+  box-shadow: inset 9em 0 0 0 var(--hover);
+}
+
+.slide4:hover,
+.slide4:focus {
+  box-shadow: inset 12.5em 0 0 0 var(--hover);
+}
+
+.slide5:hover,
+.slide5:focus {
+  box-shadow: inset 12em 0 0 0 var(--hover);
+}
+
+.slide6:hover,
+.slide6:focus {
+  box-shadow: inset 15.3em 0 0 0 var(--hover);
+}
+
+.slide7:hover,
+.slide7:focus {
+  box-shadow: inset 14em 0 0 0 var(--hover);
+}
+
 #cvButton {
   margin-left: 20px;
 }
@@ -173,24 +198,6 @@ footer ul li a:hover {
   border-radius: 25px;
 }
 
-#tekst_homepage button a:link {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #5C9D8B;
-  text-decoration: none;
-}
-
-#tekst_homepage button a:visited {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #EBFDF8;
-  text-decoration: none;
-}
-
 #profiel {
   margin: 5rem auto 8rem 150px;
   display: flex;
@@ -225,24 +232,6 @@ main #profiel #persoonlijke-info {
   background: #5C9D8B;
   border: #5C9D8B solid 1px;
   border-radius: 20px;
-}
-
-main button a:link {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  color: #EBFDF8;
-  text-decoration: none;
-}
-
-main button a:visited {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  color: #EBFDF8;
-  text-decoration: none;
 }
 
 #hardskills_title p {
@@ -518,29 +507,8 @@ main #profiel #persoonlijke-info {
 }
 
 #knoppen-gs button {
-  border-radius: 5px;
-  padding: 20px;
+  padding: 15px;
   margin: 0 2rem 2rem 0;
-  background: #5C9D8B;
-  border: #5C9D8B solid 1px;
-}
-
-#knoppen-gs button a:link {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  color: #EBFDF8;
-  text-decoration: none;
-}
-
-#knoppen-gs button a:visited {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  color: #EBFDF8;
-  text-decoration: none;
 }
 
 video {
@@ -549,10 +517,8 @@ video {
 }
 
 .code-button {
-  text-align: center;
   margin-left: 2rem;
   margin-top: 2rem;
-  width: 400px;
 }
 
 #code-p {
