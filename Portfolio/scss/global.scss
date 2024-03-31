@@ -12,3 +12,45 @@ $font1: "Proxima Nova", sans-serif;
   //padding: 0;
   font-family:$font1;
 }
+
+$colors: (
+        slide: #5C9D8B,
+);
+.slide1:hover,
+.slide1:focus {
+  box-shadow: inset 5.4em 0 0 0 var(--hover);
+}
+.slide2:hover,
+.slide2:focus {
+  box-shadow: inset 8em 0 0 0 var(--hover);
+}
+#cvButton{
+  margin-left: 20px;
+}
+.slide {
+  font-family:$font1;
+  font-size: medium;
+  font-weight: bold;
+  color: var(--color);
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  //font: inherit;
+  line-height: 1;
+  border-radius: 5px;
+  padding: 1em 2em;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{$color};
+  }
+}

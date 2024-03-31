@@ -2,6 +2,43 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
+.slide1:hover,
+.slide1:focus {
+  box-shadow: inset 5.4em 0 0 0 var(--hover);
+}
+
+.slide2:hover,
+.slide2:focus {
+  box-shadow: inset 8em 0 0 0 var(--hover);
+}
+
+#cvButton {
+  margin-left: 20px;
+}
+
+.slide {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  color: var(--color);
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  line-height: 1;
+  border-radius: 5px;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+.slide:hover, .slide:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+.slide {
+  --color: #5C9D8B;
+  --hover: #5C9D8B;
+}
+
 nav {
   height: 106px;
   background-color: #EBFDF8;
@@ -141,7 +178,7 @@ footer ul li a:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
-  color: #EBFDF8;
+  color: #5C9D8B;
   text-decoration: none;
 }
 
@@ -180,15 +217,6 @@ main #profiel #persoonlijke-info {
 #persoonlijke-info .tekst {
   padding: 0 25px 0 20px;
   font-size: x-large;
-}
-
-#cv {
-  width: 275px;
-  height: 50px;
-  background: #5C9D8B;
-  border: #5C9D8B solid 1px;
-  border-radius: 20px;
-  margin-left: 20px;
 }
 
 .creatie {
