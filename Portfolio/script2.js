@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var DesignButton3 = document.getElementById("DesignButton3");
     var DesignButton4 = document.getElementById("DesignButton4");
     var DesignButton5 = document.getElementById("DesignButton5");
-    var GithubButton1 = document.getElementById("GithubButton1");
-    var GithubButton2 = document.getElementById("GithubButton2");
 
 
     DesignButton1.addEventListener("click", function() {
@@ -33,13 +31,4 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open(url12);
     });
 
-    GithubButton1.addEventListener("click", function() {
-        var url13 = "https://github.com/thomaspeeterspxl/Thomas-Peeters.git";
-        window.open(url13);
-    });
-
-    GithubButton2.addEventListener("click", function() {
-        var url14 = "https://github.com/thomaspeeterspxl/werkpakket2.git";
-        window.open(url14);
-    });
 });
